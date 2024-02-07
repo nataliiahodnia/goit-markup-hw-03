@@ -65,11 +65,9 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.logo-header {
   margin-right: 76px;
 }
+
 
 h2 {
   color: #2e2f42;
@@ -104,9 +102,12 @@ li {
 }
 
 .page-nav-menu {
-
   display: flex;
   gap: 40px;
+}
+
+.page-item {
+  padding: 24px 0;
 
 }
 
