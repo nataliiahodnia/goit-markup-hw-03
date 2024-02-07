@@ -4,6 +4,60 @@ body {
   background-color: #fff;
 }
 
+.lorem {
+  display: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+}
+
+.header .logo,
+.header .link {
+  display: block;
+  padding: 24px 0;
+}
+
+.section {
+  padding: 120px 0;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -13,6 +67,10 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.logo-header {
+  margin-right: 76px;
 }
 
 h2 {
@@ -41,6 +99,11 @@ li {
   list-style-type: none;
 }
 
+.page-nav {
+  display: flex;
+  gap: 40px;
+}
+
 .page-nav .link {
   color: #2e2f42;
   font-size: 16px;
@@ -58,6 +121,7 @@ li {
 .contacts {
   font-style: normal;
   text-decoration: none;
+  display: flex;
 }
 
 .contacts .link {
@@ -81,9 +145,15 @@ main {
   background-color: #2e2f42;
 }
 
+.main-page-ttl {
+  display: flex;
+  justify-content: center;
+}
+
 .page-title {
   color: #fff;
   text-align: center;
+  width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -97,7 +167,15 @@ main {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  border-radius: 4px;
+  padding: 16px 32px;
   cursor: pointer;
+}
+
+.button-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
 }
 
 .button:hover {
@@ -110,6 +188,12 @@ main {
 
 .company-features {
   background-color: #fff;
+  display: flex;
+  gap: 24px;
+}
+
+.company-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .company-features .title {
@@ -125,14 +209,25 @@ main {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding-top: 8px;
 }
 
 .our-team {
   background-color: #f4f4fd;
 }
+.team-lis {
+  display: flex;
+  gap: 24px;
+}
+
+.list-item-cont {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .our-team .list-item {
   background-color: #ffffff;
+  width: calc((100% - 24px * 3) / 4);
 }
 .our-team .main-title {
   color: #2e2f42;
@@ -142,6 +237,7 @@ main {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team .title {
@@ -160,10 +256,26 @@ main {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding-top: 8px;
 }
 
 .our-portfolio {
   background-color: #fff;
+}
+
+.portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+
+.our-portfolio-kinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.section-cont {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .our-portfolio .main-title {
@@ -174,6 +286,7 @@ main {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-portfolio .title {
@@ -190,10 +303,13 @@ main {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding-top: 8px;
 }
 
 .footer {
   background-color: #2e2f42;
+  margin-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer .text {
@@ -202,6 +318,8 @@ main {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  width: 264px;
+  padding-top: 16px;
 }
 
 .logo-white {
