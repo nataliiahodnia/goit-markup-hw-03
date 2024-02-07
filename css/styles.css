@@ -175,9 +175,14 @@ main {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  border-radius: 4px;
+  border: none;
+  border-radius: 4px; 
   padding: 16px 32px;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+
 }
 
 .button-main {
