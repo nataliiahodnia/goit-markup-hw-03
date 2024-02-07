@@ -4,9 +4,8 @@ body {
   background-color: #fff;
 }
 
-.visually-hidden {
-  position: fixed;
-  transform: scale 0;
+.visibility-hidden {
+  visibility: hidden;
 }
 
 ul,
