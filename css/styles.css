@@ -203,7 +203,7 @@ main {
   width: calc((100% - 24px * 3) / 4);
 }
 
-.title {
+.company-features .title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -217,7 +217,6 @@ main {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  padding-top: 8px;
 }
 
 .our-team {
