@@ -158,6 +158,12 @@ main {
   justify-content: center;
 }
 
+.first-section {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+row-gap: 48px;}
+
 .page-title {
   color: #fff;
   text-align: center;
@@ -182,14 +188,11 @@ main {
   display: block;
   min-width: 169px;
   height: 56px;
-
-}
-
-.button-main {
-  display: flex;
-  justify-content: center;
   margin-top: 48px;
+
 }
+
+
 
 .button:hover {
   background-color: #404bbf;
