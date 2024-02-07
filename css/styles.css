@@ -203,7 +203,7 @@ main {
   width: calc((100% - 24px * 3) / 4);
 }
 
-.title-company {
+.title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
