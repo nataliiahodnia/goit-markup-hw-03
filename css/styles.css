@@ -147,9 +147,11 @@ main {
   background-color: #fff;
 }
 
-.main-desription {
+.main-desription-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
+
 
 .main-page-ttl {
   display: flex;
@@ -159,7 +161,7 @@ main {
 .page-title {
   color: #fff;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
