@@ -14,7 +14,7 @@ body {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;   
+  overflow: hidden;
 }
 
 ul,
@@ -114,7 +114,6 @@ li {
   gap: 40px;
 }
 
-
 .page-nav .link {
   color: #2e2f42;
   font-size: 16px;
@@ -157,13 +156,10 @@ main {
   padding: 188px 0;
 }
 
-
 .main-page-ttl {
   display: flex;
   justify-content: center;
 }
-
-
 
 .page-title {
   color: #fff;
@@ -184,17 +180,14 @@ main {
   line-height: 24px;
   letter-spacing: 0.64px;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
   padding: 16px 32px;
   cursor: pointer;
   display: block;
   min-width: 169px;
   height: 56px;
   margin: 48px auto 0;
-
 }
-
-
 
 .button:hover {
   background-color: #404bbf;
